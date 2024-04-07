@@ -1,0 +1,62 @@
+/* make the page have some white space on the sides */
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(7, 7, 29);
+}
+
+/* for the footer */
+footer {
+    clear: both;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    padding-bottom: 10px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.footerhead {
+    clear: both;
+    font-size: medium;
+    text-align: left;
+    float: left;
+    margin-left: 21%;
+    color: black;
+}
+
+.download {
+    float: right;
+    font-size: large;
+    margin-right: 21%;
+    color: black;
+    text-align: right;
+}
+
+.download a {
+    border-style: solid;
+    border-color: black;
+    padding: 5px 5px;
+    color: black;
+}
+
+.download a:hover {
+    opacity: 0.3;
+}
+
+/* for the title of the page */
+.title {
+    float: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+/* for co op */
+.coop {
+    font-size: larger;
+    color: white;
+    margin-right: 14%;
+    padding-bottom: 5%;
+    margin-left: 14%;
+}
